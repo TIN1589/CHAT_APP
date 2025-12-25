@@ -4,17 +4,17 @@ import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import assets from './assets/assets'
+import ChatContainer from './components/ChatContainer'
+import RightSidebar from './components/RightSidebar'
 
 const App = () => {
   return (
-    <div className="       
-        w-full
-        min-h-screen
-        bg-[url('./src/assets/bgImage.svg')]
-        bg-no-repeat
-        bg-cover
-        bg-[center_22%]
+    <div className="
+      bg-[url('./src/assets/bgImage.svg')]
+      bg-contain
+      bg-[80px]
     ">
+      
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/login' element={<LoginPage/>}/>
