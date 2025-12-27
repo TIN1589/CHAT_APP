@@ -5,7 +5,7 @@ import logo_icon from './logo_icon.svg'
 import logo_big from './logo_big.svg'
 import logo from './logo.png'
 import profile_richard from './profile_richard.png'
-import profile_alison from './profile_alison.png'
+import profile_tuongvy from './profile_tuongvy.png'
 import profile_enrique from './profile_enrique.png'
 import profile_marco from './profile_marco.png'
 import profile_martin from './profile_martin.png'
@@ -46,8 +46,8 @@ export const userDummyData = [
     {
         "_id": "680f50aaf10f3cd28382ecf2",
         "email": "test1@greatstack.dev",
-        "fullName": "Alison Martin",
-        "profilePic": profile_alison,
+        "fullName": "Tuong Vy",
+        "profilePic": profile_tuongvy,
         "bio": "Hi Everyone, I am Using QuickChat",
     },
     {

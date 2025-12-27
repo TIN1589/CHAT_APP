@@ -8,10 +8,12 @@ const HomePage = () => {
   const [selectedUser, setSelectedUser] = useState(false)
   return (
     <div className='
-          border w-full 
-          h-screen 
-          sm:px-[15%] 
-          sm: py-[2%]'>
+        max-w-4xl
+        mx-auto
+        min-h-[85vh]
+        border w-full
+        h-screen
+        '>
         <div
           className={`
             backdrop-blur-xl 
@@ -28,9 +30,9 @@ const HomePage = () => {
             }`
           }
         >
-            <SideBar />
-            <ChatContainer />
-            <RightSidebar />
+            <SideBar selectedUser={selectedUser} setSelectedUser={setSelectedUser}/>
+            <ChatContainer selectedUser={selectedUser} setSelectedUser={setSelectedUser} />
+            <RightSidebar selectedUser={selectedUser} setSelectedUser={setSelectedUser} />
         </div>
       </div>
   )

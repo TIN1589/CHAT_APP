@@ -12,7 +12,7 @@ const App = () => {
     <div className="
       bg-[url('./src/assets/bgImage.svg')]
       bg-contain
-      bg-[80px]
+      bg-center
     ">
       
       <Routes>
